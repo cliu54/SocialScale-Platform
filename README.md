@@ -2,7 +2,7 @@
 
 ## Assignment Description: 
 You have been tasked with designing a scalable and fault-tolerant social media platform that allows users to create and share posts. The platform should be able to handle a large number of concurrent users and support real-time notifications and messaging. You will use a combination of MongoDB, Redis, Nginx Load Balancer, and queuing technologies like Kafka and RabbitMQ or Redis to implement this platform.
-## Requirements:
+## Requirements:</br>
 Your solution should include the following components:</br>
 ● A MongoDB database to store information about the system.</br>
 ● A Redis cache to store frequently accessed data and improve performance.</br>
