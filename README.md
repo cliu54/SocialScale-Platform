@@ -1,8 +1,8 @@
 # SocialScale-Platform
 
-Assignment Description:
+## Assignment Description: ##
 You have been tasked with designing a scalable and fault-tolerant social media platform that allows users to create and share posts. The platform should be able to handle a large number of concurrent users and support real-time notifications and messaging. You will use a combination of MongoDB, Redis, Nginx Load Balancer, and queuing technologies like Kafka and RabbitMQ or Redis to implement this platform.
-Requirements:
+## Requirements:##
 Your solution should include the following components:
 ● A MongoDB database to store information about the system.
 ● A Redis cache to store frequently accessed data and improve performance.
@@ -22,7 +22,7 @@ Considerations:
 ● Your solution should be containerized using Docker, and you should provide a workable Docker Compose file for easy setup and deployment.
 ● Submit your complete project as a zip file, including all source code, configuration files, Docker files, and documentation.
 ● Learning outcome mapping for each question is mentioned in front of each.
-Tasks (70 points):
+## Tasks (70 points):##
 1. A MongoDB database to store information about users, posts, comments, and notifications. (15 points)( O6)
 2. A Redis cache to store frequently accessed data and improve performance. (15 points)(O6)
 3. An Nginx Load Balancer to distribute incoming requests to multiple servers and improve
@@ -35,7 +35,7 @@ on user activity. (5 points)(O2)
 updating, and deleting records. (5 points)(O6)
 
 
-Questions (30 points):
+## (Optional: good to think about) Questions (30 points):##
 1. What are the trade-offs between using a normalized schema versus a denormalized schema in MongoDB? Which approach would you recommend for the social media platform database and why? (5 points)(O4)
 2. How would you design an index in MongoDB to support a query that searches for all posts with a particular tag? How would this index be impacted if the number of posts in the database grows significantly? (5 points)(O4)
 3. Suppose you need to add a new field to the posts collection to track the location where the post was created. How would you modify the existing documents in the collection to include this new field? What are some potential issues that could arise from this modification? (5 points)(O6)
