@@ -23,22 +23,22 @@ Considerations:</br>
 ● Submit your complete project as a zip file, including all source code, configuration files, Docker files, and documentation.</br>
 ● Learning outcome mapping for each question is mentioned in front of each.</br>
 ## Tasks:</br>
-1. A MongoDB database to store information about users, posts, comments, and notifications. ( O6)</br>
-2. A Redis cache to store frequently accessed data and improve performance. (O6)</br>
+1. A MongoDB database to store information about users, posts, comments, and notifications. </br>
+2. A Redis cache to store frequently accessed data and improve performance. </br>
 3. An Nginx Load Balancer to distribute incoming requests to multiple servers and improve
-availability.(O6)</br>
+availability.</br>
 4. A messaging system using Kafka, RabbitMQ, or Redis to handle real-time notifications and
-messaging between users.(O5)</br>
+messaging between users.</br>
 5. Scripts to populate the database with sample data for testing and generate sample reports
-on user activity. (O2)</br>
+on user activity. </br>
 6. Scripts to perform basic CRUD operations on the database, including creating, reading,
-updating, and deleting records.(O6)</br>
+updating, and deleting records.</br>
 
 
 ## (Optional: good to think about) Questions:</br>
-1. What are the trade-offs between using a normalized schema versus a denormalized schema in MongoDB? Which approach would you recommend for the social media platform database and why? (O4)</br>
-2. How would you design an index in MongoDB to support a query that searches for all posts with a particular tag? How would this index be impacted if the number of posts in the database grows significantly? (O4)</br>
-3. Suppose you need to add a new field to the posts collection to track the location where the post was created. How would you modify the existing documents in the collection to include this new field? What are some potential issues that could arise from this modification? (O6)</br>
-4. How would you use Redis as a cache for frequently accessed data in the social media platform? What are the benefits and drawbacks of this approach? How would you handle cache invalidation and cache expiration? (O6)</br>
-5. How would you use Kafka or RabbitMQ to handle real-time notifications and messaging between users on the social media platform? What are the benefits and drawbacks of each messaging system? How would you ensure message persistence and replication? (O6)</br>
-6. In a multi-user environment, how would you handle concurrency control and data consistency between MongoDB and Redis in the social media platform? What are the benefits and drawbacks of this approach? (O4)</br>
+1. What are the trade-offs between using a normalized schema versus a denormalized schema in MongoDB? Which approach would you recommend for the social media platform database and why? </br>
+2. How would you design an index in MongoDB to support a query that searches for all posts with a particular tag? How would this index be impacted if the number of posts in the database grows significantly? </br>
+3. Suppose you need to add a new field to the posts collection to track the location where the post was created. How would you modify the existing documents in the collection to include this new field? What are some potential issues that could arise from this modification? </br>
+4. How would you use Redis as a cache for frequently accessed data in the social media platform? What are the benefits and drawbacks of this approach? How would you handle cache invalidation and cache expiration? </br>
+5. How would you use Kafka or RabbitMQ to handle real-time notifications and messaging between users on the social media platform? What are the benefits and drawbacks of each messaging system? How would you ensure message persistence and replication? </br>
+6. In a multi-user environment, how would you handle concurrency control and data consistency between MongoDB and Redis in the social media platform? What are the benefits and drawbacks of this approach? </br>
