@@ -35,7 +35,7 @@ on user activity. </br>
 updating, and deleting records.</br>
 
 
-## (Optional: good to think about) Questions:</br>
+## (good to think about) Questions:</br>
 1. What are the trade-offs between using a normalized schema versus a denormalized schema in MongoDB? Which approach would you recommend for the social media platform database and why? </br>
 2. How would you design an index in MongoDB to support a query that searches for all posts with a particular tag? How would this index be impacted if the number of posts in the database grows significantly? </br>
 3. Suppose you need to add a new field to the posts collection to track the location where the post was created. How would you modify the existing documents in the collection to include this new field? What are some potential issues that could arise from this modification? </br>
